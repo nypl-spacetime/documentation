@@ -2,7 +2,7 @@
 
 This repository lists projects and websites part of the [NYC Space/Time Directory](http://spacetime.nypl.org), how they were built, and how they work together. You can also see the project’s [interactive architecture diagram](http://spacetime.nypl.org/architecture/) for more information.
 
-## Website
+## Homepage
 
 - __Description__: Project’s homepage
 - __URL__: http://spacetime.nypl.org
