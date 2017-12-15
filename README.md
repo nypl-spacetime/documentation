@@ -44,24 +44,22 @@ This repository lists projects and websites part of the [NYC Space/Time Director
 
 ## Extract/Transform/Load modules
 
-- __Description__:
-- __URL__:
-- __GitHub__:
-- __Technology__:
-- __Dependencies__:
+- __Description__: Collection of Node.js modules that download, parse, and transform data from a selection of NYPL resources and create [NYC Space/Time Directory datasets](#datasets)
+- __GitHub__: https://github.com/nypl-spacetime/spacetime-etl
+- __Technology__: Node.js
+- __Dependencies__: different NYPL resources, like [Map Warper](#map-warper), [Building Inspector](#building-inspector), etc.
 
 ## Datasets
 
-- __Description__:
+- __Description__: NDJSON and ZIP files containing historical geospatial data, [scripts are available](https://github.com/nypl-spacetime/dataset-scripts) to create derivatives and upload data to S3
 - __URL__: http://spacetime.nypl.org/#data
-- __Technology__:
 - __Dependencies__: [AWS S3](#aws-s3)
 
 ## AWS S3
 
-- __Description__:
+- __Description__: Location where NYC Space/Time Directory data is stored
 - __URL__: https://s3.amazonaws.com/spacetime-nypl-org/
-- __Dependencies__:
+- __Dependencies__: AWS
 
 ## Search API
 
@@ -81,7 +79,7 @@ This repository lists projects and websites part of the [NYC Space/Time Director
 
 ## Architecture
 
-- __Description__:
+- __Description__: Interactive architecture diagram of components of NYC Space/Time Directory
 - __URL__: http://spacetime.nypl.org/architecture/
 - __GitHub__: https://github.com/nypl-spacetime/architecture
 - __Technology__: HTML + JavaScript
